@@ -1,0 +1,18 @@
+{
+    "name": "weberson/weberson",
+    "autoload": {
+        "psr-4": {
+            "Weberson\\Admin\\": "admin/",
+            "Weberson\\Includes\\": "includes/",
+            "Weberson\\Includes\\Blocks\\": "includes/blocks",
+            "Weberson\\Includes\\Commands\\": "includes/commands"
+        }
+    },
+    "authors": [
+        {
+            "name": "Weberson Loureiro",
+            "email": "weberson.loureiro@gmail.com"
+        }
+    ],
+    "require": {}
+}
