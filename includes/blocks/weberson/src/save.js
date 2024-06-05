@@ -2,9 +2,9 @@ import { useBlockProps } from '@wordpress/block-editor';
 import Block from './block';
 
 export default function save({ attributes }) {
-	const blockProps = useBlockProps.save({
-		id: attributes.blockId,
-	});
+    const blockProps = useBlockProps.save({
+        id: attributes.blockId,
+    });
 
-	return <Block blockprops={ blockProps } attributes={ attributes } />;
+    return <Block blockProps={ blockProps } attributes={ attributes } />;
 }

@@ -1,53 +1,53 @@
 {
-	"$schema": "https://schemas.wp.org/trunk/block.json",
-	"apiVersion": 3,
-	"name": "weberson/api-data",
-	"title": "API Data",
-	"category": "widgets",
-	"icon": "rest-api",
-	"description": "Display data from the Data API",
-	"version": "1.0.0",
-	"attributes": {
-		"blockId": {
-			"type": "string",
-			"default": ""
-		},
-		"blockVersion": {
-			"type": "string",
-			"default": ""
-		},
-		"showIdColumn": {
-			"type": "boolean",
-			"default": true
-		},
-		"showFirstNameColumn": {
-			"type": "boolean",
-			"default": true
-		},
-		"showLastNameColumn": {
-			"type": "boolean",
-			"default": true
-		},
-		"showEmailColumn": {
-			"type": "boolean",
-			"default": true
-		},
-		"showDateColumn": {
-			"type": "boolean",
-			"default": true
-		},
-		"header": {
-			"type": "array"
-		},
-		"body": {
-			"type": "object"
-		}
-	},
-	"supports": {
-		"html": false
-	},
-	"textdomain": "weberson",
-	"editorScript": "file:./index.js",
-	"editorStyle": "file:./index.css",
-	"style": "file:./style-index.css"
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 3,
+    "name": "weberson/api-data",
+    "title": "API Data",
+    "category": "widgets",
+    "icon": "rest-api",
+    "description": "Display data from the Data API",
+    "version": "1.0.0",
+    "attributes": {
+        "blockId": {
+            "type": "string",
+            "default": ""
+        },
+        "blockVersion": {
+            "type": "string",
+            "default": ""
+        },
+        "showIdColumn": {
+            "type": "boolean",
+            "default": true
+        },
+        "showFirstNameColumn": {
+            "type": "boolean",
+            "default": true
+        },
+        "showLastNameColumn": {
+            "type": "boolean",
+            "default": true
+        },
+        "showEmailColumn": {
+            "type": "boolean",
+            "default": true
+        },
+        "showDateColumn": {
+            "type": "boolean",
+            "default": true
+        },
+        "header": {
+            "type": "array"
+        },
+        "body": {
+            "type": "object"
+        }
+    },
+    "supports": {
+        "html": false
+    },
+    "textdomain": "weberson",
+    "editorScript": "file:./index.js",
+    "editorStyle": "file:./index.css",
+    "style": "file:./style-index.css"
 }

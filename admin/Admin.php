@@ -13,7 +13,7 @@ class Admin {
         add_action( 'admin_menu', array( $this, 'add_admin_pages' ) );
         add_filter( 'plugin_action_links_' . PLUGIN_FOLDER, array( $this, 'action_links' ), 10, 1 );
         add_action( 'in_admin_header', array( $this, 'admin_header' ) );
-		add_action( 'in_admin_footer', array( $this, 'admin_footer' ) );
+        add_action( 'in_admin_footer', array( $this, 'admin_footer' ) );
     }
 
     public function enqueue_assets() {
@@ -95,7 +95,7 @@ class Admin {
                         </table>
                     </div>
                 <?php } else { 
-                    esc_html_e( 'No data available. Plase, update the API URL below', 'weberson' );
+                    esc_html_e( 'No data available. Plase, update the API URL', 'weberson' );
                 } ?>
                 
                 <div class="weberson-section-heading">
@@ -129,13 +129,14 @@ class Admin {
             return;
         }
         ?>
+
         <div id="weberson-admin-header">
             <h1>
                 <?php esc_html_e( 'API Plugin', 'weberson' ); ?>
             </h1>
         </div>
         <?php
-	}
+    }
 
     public function admin_footer() {
         $current_screen = get_current_screen();
@@ -159,7 +160,7 @@ class Admin {
             </ul>
         </div>
         <?php
-	}
+    }
 
     public function action_links( $links ) {
         $url = 'admin.php?page=weberson';

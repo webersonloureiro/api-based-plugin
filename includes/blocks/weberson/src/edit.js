@@ -16,7 +16,7 @@ export default function Edit( { attributes, setAttributes, clientId } ) {
 	return (
 		<>
 			<Block
-				blockprops={ blockProps }
+				blockProps={ blockProps }
 				attributes={ attributes }
 				setAttributes={setAttributes}
 				isEditor={true}
