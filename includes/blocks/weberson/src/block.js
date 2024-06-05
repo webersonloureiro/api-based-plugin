@@ -20,7 +20,7 @@ function Block ({ blockProps, attributes, setAttributes, isEditor = false }) {
             <div { ...useBlockProps() }>
 
                     { loading ? (
-                        "Loading preview..."
+                        __('Loading preview...', 'weberson')
                     ) : (
                         <div class="weberson-block-section" >
                             <table class="form-table weberson-list-table">
