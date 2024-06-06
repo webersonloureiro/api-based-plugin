@@ -2,6 +2,14 @@
 
 A WordPress plugin developed from scratch
 
+### Using
+
+The API Based Plugin adds a built-in Gutenberg Block and a WP_CLI Command
+
+```bash
+$ wp weberson refresh_api
+```
+
 ### Built With
 
 API Based Plugin uses a number of open source projects to work properly:
