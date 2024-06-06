@@ -5,8 +5,8 @@ if( ! defined( 'ABSPATH' ) ) {
     die;
 }
 
-use Weberson\Admin\Requests;
 use Weberson\Admin\Admin;
+use Weberson\Admin\Requests;
 use Weberson\Includes\Blocks\Blocks;
 use Weberson\Includes\Commands\Refresh;
 
